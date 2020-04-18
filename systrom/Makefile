@@ -5,6 +5,8 @@
 # Article written at a point in time but now difficult to reproduce with evolved
 # data sets.
 
+THRESHOLD = 1000
+
 # https://en.wikipedia.org/wiki/Special:ApiSandbox
 scrape.json:
 	curl -fso $@ 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Template%3A2019%E2%80%9320%20coronavirus%20pandemic%20data%2FUnited%20States%20medical%20cases&formatversion=2&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main'
@@ -16,8 +18,26 @@ venv:
 	python3 -m venv $@
 
 requirements.txt:
-	./venv/bin/pip install wikitextparser matplotlib
+	./venv/bin/pip install wikitextparser numpy matplotlib
 	./venv/bin/pip freeze > $@
 
 cases.csv deaths.csv &: scrape.wikitext parse.py
 	./venv/bin/python3 parse.py cases.csv deaths.csv < $<
+
+%.bystate: %.csv normalize_by_state.py
+	./venv/bin/python3 normalize_by_state.py $@ < $<
+
+%.bystate/max.dsv: %.bystate
+	awk -F, 'ENDFILE{print gensub(/.*\/(..)\.csv/,"\\1",1,FILENAME),$$2}' $</*.csv > $@
+
+%.bystate/big.states: %.bystate/max.dsv
+	awk '$$2>$(THRESHOLD){print $$1}' $< > $@
+
+%.bystate/small.states: %.bystate/max.dsv
+	awk '$$2<=$(THRESHOLD){print $$1}' $< > $@
+
+# This rule isn't able to express the dependency on %.bystate
+%.svg: %.states graph.py
+	sort $< | ./venv/bin/python3 graph.py $$(dirname $<) $@
+
+.SECONDARY:

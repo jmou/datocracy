@@ -1,0 +1,8 @@
+*.csv
+*.dsv
+*.json
+*.states
+*.svg
+*.wikitext
+/requirements.txt
+/venv/
