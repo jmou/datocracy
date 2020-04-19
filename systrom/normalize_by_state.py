@@ -1,5 +1,6 @@
 import csv
 import itertools
+import math
 import os
 import sys
 from datetime import date
@@ -22,18 +23,23 @@ def cumulative(infile):
                 yield(header[i], day, cml[i])
 
 
-# TODO MI jumps to 334; interpolate fractional start day
 def since100(state_day_count):
     start = None
+    last_count = 0
     for _, day, count in state_day_count:
         if start is None and count >= 100:
-            start = day
+            # Linear interpolate partial day when count was 100. Imprecise but
+            # helps like with MI that jumps to 334. Also staggers points.
+            start = day - (count - 100) / (count - last_count)
+            if count > 100:
+                yield 0, 100
         if start is not None:
             yield day - start, count
+        last_count = count
 
 
 _, root = sys.argv
-os.mkdir(root)
+os.makedirs(root, exist_ok=True)
 
 for state, data in itertools.groupby(sorted(cumulative(sys.stdin)), lambda x: x[0]):
     data = list(since100(data))

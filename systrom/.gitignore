@@ -3,6 +3,7 @@
 *.json
 *.states
 *.svg
+*.value
 *.wikitext
 /requirements.txt
 /venv/

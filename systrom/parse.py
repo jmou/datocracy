@@ -25,6 +25,7 @@ for out, table in zip(sys.argv[1:], parsed.tables):
         if row[0] == 'Total':
             break
         row = row[:56]
+        row = [re.sub('<!--.*?-->', '', x).strip() for x in row]
         date = re.search(r'\b[A-Z][a-z]{2}\b \d\d?', row[0]).group() + ' 2020'
         row[0] = datetime.strptime(date, '%b %d %Y').date().isoformat()
         writer.writerow(row)

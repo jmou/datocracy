@@ -16,15 +16,15 @@ def format_log10(x, pos):
     return re.sub('0000$', '0K', f'{x:.0f}')
 
 
-_, dataroot, out = sys.argv
+_, dataroot, countof, asof, out = sys.argv
 
 # Gray is the new black.
 for k in ('text.color', 'axes.edgecolor', 'axes.labelcolor', 'xtick.color', 'ytick.color'):
     plt.rcParams[k] = '.4'
 
-fig, ax = plt.subplots(figsize=(10, 6), dpi=100)
-ax.set_title('COVID-19 Cases by States as of TODO')
-ax.set_xlabel('Days since 100 cases')
+fig, ax = plt.subplots(figsize=(13, 8), dpi=100)
+ax.set_title(f'COVID-19 {countof.capitalize()} by States as of {asof}')
+ax.set_xlabel(f'Days since 100 {countof}')
 ax.set_yscale('function', functions=powerscale(5))
 ax.xaxis.set_major_locator(mpl.ticker.MultipleLocator(7))
 ax.yaxis.set_major_locator(mpl.ticker.LogLocator())
@@ -50,9 +50,9 @@ for d in [1, 2, 3, 7]:
     y = 100 * 2**(x/d)
     ax.plot(x, y, ':', c='.7', zorder=1)
     # Find the position of the guide at the view limit.
-    i = min(np.searchsorted(x, xmax-2), np.searchsorted(y, ymax-5e4))
+    i = min(np.searchsorted(x, xmax), np.searchsorted(y, ymax)) - 1
     ax.annotate(f'{d}d', (x[i], y[i]),
-                xytext=(-25, 0), textcoords='offset points', c='.7')
+                xytext=(-25, -15), textcoords='offset points', c='.7')
 ax.set_xlim(0, xmax)
 ax.set_ylim(100, ymax)
 
