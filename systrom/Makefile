@@ -48,6 +48,7 @@ cases.csv deaths.csv: scrape.wikitext parse.py venv/updated
 	awk -v cutoff=$$(<$*.bystate/cutoff.value) '$$2<=cutoff{print $$1}' $< > $@
 
 # This rule isn't able to express the dependency on %.bystate
+%.svg: export TZ = America/New_York
 %.svg: %.states graph.py scrape.json venv/updated
 	sort $< | ./venv/bin/python3 graph.py $$(dirname $<) $$(grep -o ^[^.]* <<< $<) "$$(date -d @$$(stat -c %Y scrape.json) +'%Y-%m-%d %H:%M %Z')" $@
 
