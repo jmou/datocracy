@@ -36,6 +36,8 @@ ax.spines['top'].set_visible(False)
 for state in sys.stdin:
     state = state.strip()
     d = np.loadtxt(f'{dataroot}/{state}.csv', delimiter=',')
+    if d.ndim == 1:  # edge case for one row
+        d = d.reshape(1, 2)
     p = ax.plot(d[:,0], d[:,1], marker='.', mfc='w')
     color = p[-1].get_color()
     ax.annotate(state, d[-1],

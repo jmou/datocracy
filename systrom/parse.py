@@ -22,6 +22,8 @@ for out, table in zip(sys.argv[1:], parsed.tables):
     writer.writerow(header)
 
     for row in data[2:]:
+        if row[0] == 'Date':
+            continue
         if row[0] == 'Total':
             break
         row = row[:56]
