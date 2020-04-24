@@ -5,7 +5,20 @@
 # Article written at a point in time but now difficult to reproduce with evolved
 # data sets.
 
+SHELL = /bin/bash
+
 all: cases.bystate/big.svg cases.bystate/small.svg deaths.bystate/big.svg deaths.bystate/small.svg
+
+venv:
+	python3 -m venv $@
+
+venv/updated: venv
+	./venv/bin/pip install -r requirements.txt
+	touch $@
+
+requirements.txt: venv
+	./venv/bin/pip install wikitextparser numpy matplotlib
+	./venv/bin/pip freeze > $@
 
 # https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases
 # https://en.wikipedia.org/wiki/Special:ApiSandbox
@@ -15,18 +28,11 @@ scrape.json:
 scrape.wikitext: scrape.json
 	python3 -c "import json, sys; print(json.load(sys.stdin)['query']['pages'][0]['revisions'][0]['slots']['main']['content'])" < $< > $@
 
-venv:
-	python3 -m venv $@
-
-requirements.txt:
-	./venv/bin/pip install wikitextparser numpy matplotlib
-	./venv/bin/pip freeze > $@
-
 # More properly this would use the new (make 4.3) grouped targets.
-cases.csv deaths.csv: scrape.wikitext parse.py
+cases.csv deaths.csv: scrape.wikitext parse.py venv/updated
 	./venv/bin/python3 parse.py cases.csv deaths.csv < $<
 
-%.bystate: %.csv normalize_by_state.py
+%.bystate: %.csv normalize_by_state.py venv/updated
 	./venv/bin/python3 normalize_by_state.py $@ < $<
 
 %.bystate/max.dsv: %.bystate
@@ -42,7 +48,7 @@ cases.csv deaths.csv: scrape.wikitext parse.py
 	awk -v cutoff=$$(<$*.bystate/cutoff.value) '$$2<=cutoff{print $$1}' $< > $@
 
 # This rule isn't able to express the dependency on %.bystate
-%.svg: %.states graph.py scrape.json
+%.svg: %.states graph.py scrape.json venv/updated
 	sort $< | ./venv/bin/python3 graph.py $$(dirname $<) $$(grep -o ^[^.]* <<< $<) "$$(date -d @$$(stat -c %Y scrape.json) +'%Y-%m-%d %H:%M %Z')" $@
 
 .SECONDARY:

@@ -5,5 +5,4 @@
 *.svg
 *.value
 *.wikitext
-/requirements.txt
 /venv/

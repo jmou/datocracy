@@ -1,0 +1,33 @@
+name: Publish to GitHub Pages
+
+on:
+  push:
+    branches: [ master ]
+  schedule:
+    - cron: '59 6 * * *'  # midnight PDT
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+      with:
+        python-version: 3.x
+    - run: |
+        make docs
+    - env:
+        SSH_KEY: ${{ secrets.actions_deploy_key }}
+        GIT_SSH_COMMAND: ssh -i .git/identity
+      run: |
+        echo "$SSH_KEY" > .git/identity
+        chmod 600 .git/identity
+        git config user.name 'GitHub Actions'
+        git config user.email nobody@mou.fo
+        git fetch origin gh-pages:gh-pages
+        git checkout gh-pages --
+        git add docs
+        git clean -dxf
+        git mv -f docs/* .
+        git commit -m 'Automated docs publish' -m '' -m "Origin commit: $(git rev-parse master)"
+        git push origin gh-pages
