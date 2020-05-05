@@ -7,7 +7,8 @@ import wikitextparser as wtp
 
 
 parsed = wtp.parse(sys.stdin.read())
-assert len(parsed.tables) == 2
+# Simple heuristic to check the tables are in the assumed order.
+assert 'cases' in parsed.tables[0].caption
 assert 'Deaths' in parsed.tables[1].caption
 
 for out, table in zip(sys.argv[1:], parsed.tables):

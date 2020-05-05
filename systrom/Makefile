@@ -20,10 +20,9 @@ requirements.txt: venv
 	./venv/bin/pip install wikitextparser numpy matplotlib
 	./venv/bin/pip freeze > $@
 
-# https://en.wikipedia.org/wiki/Template:2019%E2%80%9320_coronavirus_pandemic_data/United_States_medical_cases
 # https://en.wikipedia.org/wiki/Special:ApiSandbox
 scrape.json:
-	curl -fso scrape.json 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Template%3A2019%E2%80%9320%20coronavirus%20pandemic%20data%2FUnited%20States%20medical%20cases&formatversion=2&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main'
+	curl -fso scrape.json 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions&titles=Template%3ACOVID-19%20pandemic%20data%2FUnited%20States%20medical%20cases&formatversion=2&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main'
 
 scrape.wikitext: scrape.json
 	python3 -c "import json, sys; print(json.load(sys.stdin)['query']['pages'][0]['revisions'][0]['slots']['main']['content'])" < $< > $@
