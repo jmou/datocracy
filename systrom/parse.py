@@ -9,7 +9,7 @@ import wikitextparser as wtp
 parsed = wtp.parse(sys.stdin.read())
 # Simple heuristic to check the tables are in the assumed order.
 assert 'cases' in parsed.tables[0].caption
-assert 'Deaths' in parsed.tables[1].caption
+assert 'deaths' in parsed.tables[1].caption
 
 for out, table in zip(sys.argv[1:], parsed.tables):
     writer = csv.writer(open(out, 'w'))
