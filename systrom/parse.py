@@ -29,6 +29,7 @@ for out, table in zip(sys.argv[1:], parsed.tables):
             break
         row = row[:56]
         row = [re.sub('<[^>]*>', '', x).strip() for x in row]
-        date = re.search(r'\b[A-Z][a-z]{2}\b \d\d?', row[0]).group() + ' 2020'
-        row[0] = datetime.strptime(date, '%b %d %Y').date().isoformat()
+        date = re.search(r'\b\d\d?-[A-Z][a-z]{2}-\d\d\b', row[0]).group()
+        row[0] = datetime.strptime(date, '%d-%b-%y').date().isoformat()
+        row[1:] = [x.replace(',', '') for x in row[1:]]
         writer.writerow(row)
