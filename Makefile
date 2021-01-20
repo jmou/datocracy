@@ -2,10 +2,10 @@ docs: www
 	cp -R www docs
 	rm -f docs/Makefile docs/.gitignore
 
-www: systrom
+www: nyvaccine systrom
 	$(MAKE) -C www
 
-systrom:
-	$(MAKE) -C systrom
+nyvaccine systrom:
+	$(MAKE) -C $@
 
-.PHONY: www systrom
+.PHONY: www nyvaccine systrom
