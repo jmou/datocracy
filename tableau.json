@@ -10,17 +10,17 @@
                                     {
                                         "dataType": "real",
                                         "dataValues": [
-                                            0.687126535199208
+                                            0.9052321613435068
                                         ]
                                     },
                                     {
                                         "dataType": "cstring",
                                         "dataValues": [
-                                            "01/24/2021",
-                                            "1,178,850",
-                                            "1,144,070",
-                                            "350,550",
-                                            "139,929",
+                                            "1,304,050",
+                                            "1,180,468",
+                                            "564,600",
+                                            "143,952",
+                                            "01/25/2021",
                                             "Statewide",
                                             "Western New York",
                                             "Southern Tier",
@@ -32,44 +32,44 @@
                                             "Finger Lakes",
                                             "Central New York",
                                             "Capital Region",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:% of Doses Administered / Received (copy)_1137721859462545409:qk]",
-                                            "% of First Doses Administered / Received",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380711342080:qk]",
-                                            "First Doses Administered",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_1137721859462270976:qk]",
-                                            "First Doses Received",
-                                            "88%",
-                                            "96%",
-                                            "90%",
-                                            "77%",
-                                            "85%",
+                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380712169474:qk]",
+                                            "% of Total Doses Administered / Received (1st and 2nd)",
+                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713377796:qk]",
+                                            "Total Doses Administered (1st and 2nd)",
+                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
+                                            "Total Doses Received (1st and 2nd)",
+                                            "71%",
+                                            "79%",
+                                            "74%",
+                                            "63%",
                                             "69%",
-                                            "82%",
-                                            "97%",
-                                            "95%",
-                                            "98%",
-                                            "89%",
-                                            "88,459",
-                                            "34,486",
-                                            "28,468",
-                                            "499,101",
-                                            "25,403",
-                                            "100,677",
-                                            "144,508",
-                                            "76,141",
-                                            "72,447",
-                                            "74,380",
-                                            "1,304,050",
-                                            "92,260",
-                                            "38,250",
-                                            "36,745",
-                                            "589,275",
-                                            "36,970",
-                                            "123,150",
-                                            "149,370",
-                                            "80,150",
-                                            "74,040",
-                                            "83,840"
+                                            "54%",
+                                            "66%",
+                                            "73%",
+                                            "75%",
+                                            "86%",
+                                            "1,324,420",
+                                            "103,218",
+                                            "38,908",
+                                            "32,285",
+                                            "579,259",
+                                            "28,922",
+                                            "117,687",
+                                            "166,664",
+                                            "88,729",
+                                            "82,217",
+                                            "86,531",
+                                            "1,868,650",
+                                            "130,160",
+                                            "52,300",
+                                            "50,945",
+                                            "842,025",
+                                            "53,070",
+                                            "179,475",
+                                            "229,520",
+                                            "118,250",
+                                            "95,265",
+                                            "117,640"
                                         ]
                                     }
                                 ]
@@ -108,7 +108,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -1
+                                                                -5
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -468,8 +468,8 @@
                                                                 -30,
                                                                 -31,
                                                                 -32,
+                                                                -25,
                                                                 -33,
-                                                                -3,
                                                                 -34,
                                                                 -35,
                                                                 -36,
@@ -687,15 +687,15 @@
                                                 },
                                                 {
                                                     "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_2363545380712169474]",
+                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[% of Doses Administered / Received (copy)_1137721859462545409]",
                                                     "columnIndices": [
                                                         1
                                                     ],
                                                     "dataType": "real",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(% of Doses Administered / Received)",
+                                                    "fieldCaption": "SUM(% of First Doses Administered / Received)",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380712169474:qk]",
+                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:% of Doses Administered / Received (copy)_1137721859462545409:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
                                                         "p",
@@ -710,7 +710,7 @@
                                                         "3;0"
                                                     ],
                                                     "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_2363545380712169474]",
+                                                    "localBaseColumnName": "[% of Doses Administered / Received (copy)_1137721859462545409]",
                                                     "paneIndices": [
                                                         0
                                                     ]
@@ -727,7 +727,7 @@
                                                     "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">VACC_PAT_ID:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
-                                                    "summaryField": "SUM(% of Doses Administered / Received)"
+                                                    "summaryField": "SUM(% of First Doses Administered / Received)"
                                                 }
                                             ]
                                         },
@@ -761,7 +761,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -2
+                                                                -1
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -861,7 +861,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -4
+                                                                -3
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -961,7 +961,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -3
+                                                                -2
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -1061,7 +1061,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -5
+                                                                -4
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
