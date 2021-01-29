@@ -16,11 +16,11 @@
                                     {
                                         "dataType": "cstring",
                                         "dataValues": [
+                                            "01/27/2021",
                                             "1,304,050",
                                             "1,246,946",
                                             "564,600",
                                             "186,283",
-                                            "01/27/2021",
                                             "Statewide",
                                             "Western New York",
                                             "Southern Tier",
@@ -108,7 +108,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -5
+                                                                -1
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -761,7 +761,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -1
+                                                                -2
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -861,7 +861,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -3
+                                                                -4
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -961,7 +961,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -2
+                                                                -3
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -1061,7 +1061,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -4
+                                                                -5
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
