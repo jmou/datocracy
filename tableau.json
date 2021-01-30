@@ -8,19 +8,24 @@
                             "0": {
                                 "dataColumns": [
                                     {
+                                        "dataType": "integer",
+                                        "dataValues": [
+                                            1387840,
+                                            1316032,
+                                            618115,
+                                            244644
+                                        ]
+                                    },
+                                    {
                                         "dataType": "real",
                                         "dataValues": [
-                                            0.956210268011196
+                                            0.9482591653216508
                                         ]
                                     },
                                     {
                                         "dataType": "cstring",
                                         "dataValues": [
-                                            "01/27/2021",
-                                            "1,304,050",
-                                            "1,246,946",
-                                            "564,600",
-                                            "186,283",
+                                            "1/29/2021 11 AM",
                                             "Statewide",
                                             "Western New York",
                                             "Southern Tier",
@@ -38,38 +43,38 @@
                                             "Total Doses Administered (1st and 2nd)",
                                             "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
                                             "Total Doses Received (1st and 2nd)",
-                                            "77%",
-                                            "86%",
-                                            "71%",
-                                            "74%",
-                                            "60%",
-                                            "70%",
                                             "78%",
-                                            "82%",
+                                            "86%",
+                                            "72%",
+                                            "76%",
+                                            "61%",
+                                            "70%",
+                                            "77%",
+                                            "84%",
                                             "98%",
-                                            "81%",
-                                            "1,433,229",
-                                            "112,436",
-                                            "40,129",
-                                            "36,269",
-                                            "621,958",
-                                            "31,835",
-                                            "126,191",
-                                            "179,303",
-                                            "96,437",
-                                            "93,060",
-                                            "95,611",
-                                            "1,868,650",
-                                            "130,160",
-                                            "52,300",
-                                            "50,945",
-                                            "842,025",
-                                            "53,070",
-                                            "179,475",
-                                            "229,520",
-                                            "118,250",
-                                            "95,265",
-                                            "117,640"
+                                            "82%",
+                                            "1,560,676",
+                                            "118,376",
+                                            "44,637",
+                                            "39,111",
+                                            "690,568",
+                                            "34,376",
+                                            "135,167",
+                                            "192,385",
+                                            "104,421",
+                                            "98,740",
+                                            "102,895",
+                                            "2,005,955",
+                                            "137,930",
+                                            "57,265",
+                                            "54,585",
+                                            "907,515",
+                                            "56,580",
+                                            "193,235",
+                                            "248,645",
+                                            "124,040",
+                                            "101,245",
+                                            "124,915"
                                         ]
                                     }
                                 ]
@@ -145,9 +150,9 @@
                                                     "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[max:REPORT_DATE:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
-                                                        "*mm/dd/yyyy",
+                                                        "*m/d/yyyy h AMPM",
                                                         "en_US",
-                                                        "*mm/dd/yyyy",
+                                                        "*m/d/yyyy h AMPM",
                                                         "h:mm:ss tt",
                                                         "0",
                                                         "1",
@@ -242,6 +247,10 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
@@ -249,10 +258,10 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
@@ -260,21 +269,17 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
                                                                 8,
                                                                 9,
                                                                 10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15
+                                                                11
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -313,6 +318,10 @@
                                                             ],
                                                             "tupleIds": [],
                                                             "valueIndices": [
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
@@ -320,10 +329,10 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
@@ -331,25 +340,43 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
+                                                                1,
+                                                                2,
+                                                                3,
+                                                                4,
                                                                 5,
                                                                 6,
                                                                 7,
                                                                 8,
                                                                 9,
                                                                 10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15
+                                                                11
                                                             ]
                                                         },
                                                         {
                                                             "aliasIndices": [
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
                                                                 17,
                                                                 17,
                                                                 17,
@@ -360,29 +387,7 @@
                                                                 17,
                                                                 17,
                                                                 17,
-                                                                17,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21,
-                                                                21
+                                                                17
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -421,6 +426,28 @@
                                                             ],
                                                             "tupleIds": [],
                                                             "valueIndices": [
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
                                                                 16,
                                                                 16,
                                                                 16,
@@ -431,36 +458,18 @@
                                                                 16,
                                                                 16,
                                                                 16,
-                                                                16,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20
+                                                                16
                                                             ]
                                                         },
                                                         {
                                                             "aliasIndices": [
+                                                                -19,
+                                                                -20,
+                                                                -19,
+                                                                -21,
+                                                                -22,
                                                                 -23,
                                                                 -24,
-                                                                -23,
                                                                 -25,
                                                                 -26,
                                                                 -27,
@@ -486,11 +495,7 @@
                                                                 -47,
                                                                 -48,
                                                                 -49,
-                                                                -50,
-                                                                -51,
-                                                                -52,
-                                                                -53,
-                                                                -54
+                                                                -50
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -761,7 +766,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -2
+                                                                0
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -787,15 +792,15 @@
                                                 },
                                                 {
                                                     "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[NYS_FIRST_DOSE_RECEIVED]",
+                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_1137721859462270976]",
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(Nys First Dose Received)",
+                                                    "fieldCaption": "SUM(First Doses Received)",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:NYS_FIRST_DOSE_RECEIVED:qk]",
+                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_1137721859462270976:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
                                                         "",
@@ -810,7 +815,7 @@
                                                         "3;0"
                                                     ],
                                                     "isAutoSelect": false,
-                                                    "localBaseColumnName": "[NYS_FIRST_DOSE_RECEIVED]",
+                                                    "localBaseColumnName": "[Calculation_1137721859462270976]",
                                                     "paneIndices": [
                                                         0
                                                     ]
@@ -827,7 +832,7 @@
                                                     "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">VACC_PAT_ID:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
-                                                    "summaryField": "SUM(Nys First Dose Received)"
+                                                    "summaryField": "SUM(First Doses Received)"
                                                 }
                                             ]
                                         },
@@ -861,7 +866,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -4
+                                                                2
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -887,30 +892,30 @@
                                                 },
                                                 {
                                                     "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[NYS_SECOND_DOSE_RECEIVED]",
+                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_981221774176194560]",
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(Nys Second Dose Received)",
+                                                    "fieldCaption": "SUM(Second Doses Received)",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:NYS_SECOND_DOSE_RECEIVED:qk]",
+                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_981221774176194560:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
-                                                        "",
-                                                        "-1",
+                                                        "n",
+                                                        "0",
                                                         "t",
                                                         "",
                                                         "",
                                                         "",
-                                                        "0",
+                                                        "2",
                                                         ".",
                                                         ",",
                                                         "3;0"
                                                     ],
                                                     "isAutoSelect": false,
-                                                    "localBaseColumnName": "[NYS_SECOND_DOSE_RECEIVED]",
+                                                    "localBaseColumnName": "[Calculation_981221774176194560]",
                                                     "paneIndices": [
                                                         0
                                                     ]
@@ -927,7 +932,7 @@
                                                     "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#002d72;font-weight:bold;font-style:normal;text-decoration:none;\">First Dose</span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:normal;font-style:normal;text-decoration:none;\"><br></span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:normal;font-style:normal;text-decoration:none;\"><br></span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#002d72;font-weight:bold;font-style:normal;text-decoration:none;\">Second Dose</span></div></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
-                                                    "summaryField": "SUM(Nys Second Dose Received)"
+                                                    "summaryField": "SUM(Second Doses Received)"
                                                 }
                                             ]
                                         },
@@ -961,7 +966,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -3
+                                                                1
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -991,7 +996,7 @@
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
                                                     "fieldCaption": "SUM(First Doses Administered)",
                                                     "fieldRole": "measure",
@@ -1061,7 +1066,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -5
+                                                                3
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -1091,7 +1096,7 @@
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
                                                     "fieldCaption": "SUM(Second Doses Administered)",
                                                     "fieldRole": "measure",
