@@ -10,22 +10,22 @@
                                     {
                                         "dataType": "integer",
                                         "dataValues": [
-                                            1387840,
-                                            1316032,
-                                            618115,
-                                            244644
+                                            1471145,
+                                            1343729,
+                                            671585,
+                                            282513
                                         ]
                                     },
                                     {
                                         "dataType": "real",
                                         "dataValues": [
-                                            0.9482591653216508
+                                            0.9133899105798544
                                         ]
                                     },
                                     {
                                         "dataType": "cstring",
                                         "dataValues": [
-                                            "1/29/2021 11 AM",
+                                            "1/30/2021 11 AM",
                                             "Statewide",
                                             "Western New York",
                                             "Southern Tier",
@@ -43,38 +43,38 @@
                                             "Total Doses Administered (1st and 2nd)",
                                             "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
                                             "Total Doses Received (1st and 2nd)",
-                                            "78%",
-                                            "86%",
-                                            "72%",
                                             "76%",
-                                            "61%",
-                                            "70%",
-                                            "77%",
-                                            "84%",
-                                            "98%",
                                             "82%",
-                                            "1,560,676",
-                                            "118,376",
-                                            "44,637",
-                                            "39,111",
-                                            "690,568",
-                                            "34,376",
-                                            "135,167",
-                                            "192,385",
-                                            "104,421",
-                                            "98,740",
-                                            "102,895",
-                                            "2,005,955",
-                                            "137,930",
-                                            "57,265",
-                                            "54,585",
-                                            "907,515",
-                                            "56,580",
-                                            "193,235",
-                                            "248,645",
-                                            "124,040",
-                                            "101,245",
-                                            "124,915"
+                                            "75%",
+                                            "69%",
+                                            "74%",
+                                            "61%",
+                                            "67%",
+                                            "83%",
+                                            "98%",
+                                            "81%",
+                                            "1,626,242",
+                                            "121,992",
+                                            "46,953",
+                                            "40,162",
+                                            "725,212",
+                                            "35,494",
+                                            "139,234",
+                                            "199,820",
+                                            "108,517",
+                                            "102,661",
+                                            "106,197",
+                                            "2,142,730",
+                                            "147,925",
+                                            "62,550",
+                                            "58,465",
+                                            "974,160",
+                                            "58,220",
+                                            "206,325",
+                                            "268,545",
+                                            "130,150",
+                                            "105,010",
+                                            "131,380"
                                         ]
                                     }
                                 ]
@@ -465,12 +465,12 @@
                                                             "aliasIndices": [
                                                                 -19,
                                                                 -20,
-                                                                -19,
                                                                 -21,
                                                                 -22,
                                                                 -23,
                                                                 -24,
                                                                 -25,
+                                                                -23,
                                                                 -26,
                                                                 -27,
                                                                 -28,
@@ -803,13 +803,13 @@
                                                     "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_1137721859462270976:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
-                                                        "",
-                                                        "-1",
+                                                        "n",
+                                                        "0",
                                                         "t",
                                                         "",
                                                         "",
                                                         "",
-                                                        "0",
+                                                        "2",
                                                         ".",
                                                         ",",
                                                         "3;0"
@@ -892,7 +892,7 @@
                                                 },
                                                 {
                                                     "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_981221774176194560]",
+                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_649925726952898560]",
                                                     "columnIndices": [
                                                         1
                                                     ],
@@ -900,7 +900,7 @@
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
                                                     "fieldCaption": "SUM(Second Doses Received)",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_981221774176194560:qk]",
+                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_649925726952898560:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
                                                         "n",
@@ -915,7 +915,7 @@
                                                         "3;0"
                                                     ],
                                                     "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_981221774176194560]",
+                                                    "localBaseColumnName": "[Calculation_649925726952898560]",
                                                     "paneIndices": [
                                                         0
                                                     ]
