@@ -10,22 +10,22 @@
                                     {
                                         "dataType": "integer",
                                         "dataValues": [
-                                            1475122,
-                                            369186
+                                            1661290,
+                                            1539355,
+                                            794650,
+                                            413512
                                         ]
                                     },
                                     {
                                         "dataType": "real",
                                         "dataValues": [
-                                            0.9489671588021485,
-                                            1554450,
-                                            725050
+                                            0.9266022187577124
                                         ]
                                     },
                                     {
                                         "dataType": "cstring",
                                         "dataValues": [
-                                            "2/4/2021 11 AM",
+                                            "2/5/2021 11 AM",
                                             "Statewide",
                                             "Western New York",
                                             "Southern Tier",
@@ -43,39 +43,37 @@
                                             "Total Doses Administered (1st and 2nd)",
                                             "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
                                             "Total Doses Received (1st and 2nd)",
-                                            "81%",
-                                            "88%",
-                                            "86%",
-                                            "99%",
-                                            "77%",
-                                            "75%",
-                                            "73%",
                                             "80%",
-                                            "92%",
-                                            "98%",
-                                            "84%",
-                                            "1,844,308",
-                                            "139,053",
-                                            "58,675",
-                                            "61,547",
-                                            "800,810",
-                                            "45,101",
-                                            "159,786",
-                                            "231,041",
-                                            "124,761",
-                                            "107,138",
-                                            "116,396",
-                                            "2,279,500",
-                                            "157,915",
-                                            "67,835",
-                                            "62,350",
-                                            "1,040,800",
-                                            "59,860",
-                                            "219,420",
-                                            "288,360",
-                                            "136,255",
-                                            "108,865",
-                                            "137,840"
+                                            "87%",
+                                            "90%",
+                                            "99%",
+                                            "76%",
+                                            "75%",
+                                            "74%",
+                                            "89%",
+                                            "81%",
+                                            "1,952,867",
+                                            "145,176",
+                                            "65,254",
+                                            "67,504",
+                                            "847,299",
+                                            "48,862",
+                                            "173,283",
+                                            "246,253",
+                                            "129,873",
+                                            "107,503",
+                                            "121,861",
+                                            "2,455,940",
+                                            "166,165",
+                                            "72,715",
+                                            "68,405",
+                                            "1,120,765",
+                                            "65,450",
+                                            "234,515",
+                                            "307,410",
+                                            "148,715",
+                                            "120,590",
+                                            "151,210"
                                         ]
                                     }
                                 ]
@@ -471,6 +469,8 @@
                                                                 -23,
                                                                 -24,
                                                                 -25,
+                                                                -19,
+                                                                -20,
                                                                 -26,
                                                                 -27,
                                                                 -28,
@@ -494,9 +494,7 @@
                                                                 -46,
                                                                 -47,
                                                                 -48,
-                                                                -49,
-                                                                -50,
-                                                                -51
+                                                                -49
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -767,7 +765,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                1
+                                                                0
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -797,7 +795,7 @@
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
                                                     "fieldCaption": "SUM(First Doses Received)",
                                                     "fieldRole": "measure",
@@ -897,7 +895,7 @@
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "real",
+                                                    "dataType": "integer",
                                                     "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
                                                     "fieldCaption": "SUM(Second Doses Received)",
                                                     "fieldRole": "measure",
@@ -967,7 +965,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                0
+                                                                1
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
@@ -1067,7 +1065,7 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                1
+                                                                3
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1
