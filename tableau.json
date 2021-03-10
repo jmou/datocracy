@@ -8,20 +8,10 @@
                             "0": {
                                 "dataColumns": [
                                     {
-                                        "dataType": "real",
-                                        "dataValues": [
-                                            4227090,
-                                            0.8864029391377994
-                                        ]
-                                    },
-                                    {
                                         "dataType": "cstring",
                                         "dataValues": [
-                                            "3/8/2021 11 AM",
-                                            "3,746,905",
-                                            "6,541,110",
-                                            "5,640,706",
-                                            "Statewide",
+                                            "3/9/2021 11 AM",
+                                            "%all%",
                                             "Western New York",
                                             "Southern Tier",
                                             "North Country",
@@ -32,70 +22,87 @@
                                             "Finger Lakes",
                                             "Central New York",
                                             "Capital Region",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:% of Doses Administered / Received (copy)_1137721859462545409:qk]",
-                                            "% of First Doses Administered / Received",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380711342080:qk]",
-                                            "First Doses Administered",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_1137721859462270976:qk]",
-                                            "First Doses Received",
-                                            "89%",
-                                            "87%",
-                                            "83%",
-                                            "94%",
-                                            "90%",
-                                            "92%",
-                                            "85%",
-                                            "241,861",
-                                            "128,692",
-                                            "122,564",
-                                            "1,691,687",
-                                            "106,165",
-                                            "348,136",
-                                            "434,268",
-                                            "231,674",
-                                            "209,228",
-                                            "232,630",
-                                            "4,227,090",
-                                            "276,645",
-                                            "154,165",
-                                            "130,855",
-                                            "1,904,675",
-                                            "113,035",
-                                            "400,855",
-                                            "480,685",
-                                            "265,195",
-                                            "227,465",
-                                            "273,515",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380712169474:qk]",
-                                            "% of Total Doses Administered / Received (1st and 2nd)",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713377796:qk]",
-                                            "Total Doses Administered (1st and 2nd)",
-                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
-                                            "Total Doses Received (1st and 2nd)",
-                                            "86%",
-                                            "84%",
-                                            "93%",
-                                            "88%",
-                                            "379,560",
-                                            "192,102",
-                                            "189,403",
-                                            "2,514,336",
-                                            "158,919",
-                                            "519,605",
-                                            "672,789",
-                                            "354,086",
-                                            "310,468",
-                                            "349,438",
-                                            "434,435",
-                                            "228,405",
-                                            "204,560",
-                                            "2,917,965",
-                                            "180,255",
-                                            "626,065",
-                                            "774,570",
-                                            "405,355",
-                                            "348,450",
-                                            "421,050"
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:Increase over past 24 hours (copy)_1343761555960643589:qk]",
+                                            "Increase over past 24 hours ",
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:Increase over past 7-days (copy)_1343761556182482951:qk]",
+                                            "Increase over past 7-days ",
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:First Dose Today (copy)_1343761555960619011:qk]",
+                                            "Total ",
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:Calculation_1343761555951947778:qk]",
+                                            "Increase over past 24 hours",
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:Calculation_1343761556182036486:qk]",
+                                            "Increase over past 7-days",
+                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:First Dose Yesterday (copy)_1343761555951878145:qk]",
+                                            "Total",
+                                            "36,252",
+                                            "1,421",
+                                            "1,550",
+                                            "1,861",
+                                            "16,366",
+                                            "1,752",
+                                            "3,648",
+                                            "3,362",
+                                            "1,514",
+                                            "2,926",
+                                            "1,852",
+                                            "265,630",
+                                            "15,623",
+                                            "8,518",
+                                            "11,251",
+                                            "125,841",
+                                            "9,204",
+                                            "22,878",
+                                            "30,079",
+                                            "13,799",
+                                            "14,221",
+                                            "14,216",
+                                            "1,930,053",
+                                            "139,120",
+                                            "64,960",
+                                            "68,700",
+                                            "839,015",
+                                            "54,506",
+                                            "175,117",
+                                            "241,883",
+                                            "123,926",
+                                            "104,166",
+                                            "118,660",
+                                            "120,522",
+                                            "8,906",
+                                            "4,253",
+                                            "3,122",
+                                            "48,464",
+                                            "3,257",
+                                            "14,093",
+                                            "11,962",
+                                            "7,908",
+                                            "9,836",
+                                            "8,721",
+                                            "833,505",
+                                            "51,629",
+                                            "27,194",
+                                            "25,571",
+                                            "369,564",
+                                            "23,800",
+                                            "91,811",
+                                            "80,057",
+                                            "54,435",
+                                            "56,376",
+                                            "53,068",
+                                            "3,867,427",
+                                            "250,767",
+                                            "132,945",
+                                            "125,686",
+                                            "1,740,151",
+                                            "109,422",
+                                            "362,229",
+                                            "446,230",
+                                            "239,582",
+                                            "219,064",
+                                            "241,351",
+                                            "5,797,480",
+                                            "1,099,135",
+                                            "156,774"
                                         ]
                                     }
                                 ]
@@ -194,7 +201,7 @@
                                             "ubertipPaneDatas": [
                                                 {
                                                     "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Max. Date Reported:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
+                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Max. Date Reported:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
                                                     "summaryField": ""
@@ -205,7 +212,7 @@
                                     }
                                 }
                             },
-                            "01-NYS First Allocation Phone": {
+                            "01-Total Doses": {
                                 "presModelHolder": {
                                     "genVizDataPresModel": {
                                         "filterFields": [],
@@ -214,14 +221,10 @@
                                             "paneColumnsList": [
                                                 {
                                                     "paneDescriptor": {
-                                                        "paneDescrKey": "1e2459a239830b74",
-                                                        "xFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]"
-                                                        ],
+                                                        "paneDescrKey": "6344701b2a6cb0ec",
+                                                        "xFields": [],
                                                         "xIndex": 0,
-                                                        "yFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]"
-                                                        ],
+                                                        "yFields": [],
                                                         "yIndex": 0
                                                     },
                                                     "vizPaneColumns": [
@@ -229,327 +232,15 @@
                                                             "aliasIndices": [],
                                                             "formatstrIndices": [],
                                                             "tupleIds": [
-                                                                1,
-                                                                2,
-                                                                3,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
-                                                                16,
-                                                                17,
-                                                                18,
-                                                                19,
-                                                                20,
-                                                                21,
-                                                                22,
-                                                                23,
-                                                                24,
-                                                                25,
-                                                                26,
-                                                                27,
-                                                                28,
-                                                                29,
-                                                                30,
-                                                                31,
-                                                                32,
-                                                                33
+                                                                1
                                                             ],
                                                             "valueIndices": []
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
+                                                                -91
                                                             ],
                                                             "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": [
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
-                                                            ]
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": [
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19
-                                                            ]
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                -22,
-                                                                -23,
-                                                                -24,
-                                                                -25,
-                                                                -22,
-                                                                -25,
-                                                                -23,
-                                                                -26,
-                                                                -23,
-                                                                -27,
-                                                                -28,
-                                                                -2,
-                                                                -29,
-                                                                -30,
-                                                                -31,
-                                                                -32,
-                                                                -33,
-                                                                -34,
-                                                                -35,
-                                                                -36,
-                                                                -37,
-                                                                -38,
-                                                                -39,
-                                                                -40,
-                                                                -41,
-                                                                -42,
-                                                                -43,
-                                                                -44,
-                                                                -45,
-                                                                -46,
-                                                                -47,
-                                                                -48,
-                                                                -49
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
                                                                 -1
                                                             ],
                                                             "tupleIds": [],
@@ -572,55 +263,16 @@
                                                     ]
                                                 },
                                                 {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[REGION]",
+                                                    "aggregation": "sum",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[CUR_DAY_TOTAL_DOSE_CT]",
                                                     "columnIndices": [
                                                         1
                                                     ],
-                                                    "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Region",
-                                                    "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": true,
-                                                    "localBaseColumnName": "[REGION]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ],
-                                                    "stringCollation": {
-                                                        "charsetId": 0,
-                                                        "name": "binary"
-                                                    }
-                                                },
-                                                {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
-                                                    "columnIndices": [
-                                                        2
-                                                    ],
-                                                    "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Measure Names",
-                                                    "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": true,
-                                                    "localBaseColumnName": "[:Measure Names]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
-                                                    "columnIndices": [
-                                                        3
-                                                    ],
                                                     "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Measure Values",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
+                                                    "fieldCaption": "SUM(CUR_DAY_TOTAL_DOSE_CT)",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:CUR_DAY_TOTAL_DOSE_CT:qk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
                                                         "",
@@ -635,7 +287,7 @@
                                                         "3;0"
                                                     ],
                                                     "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Multiple Values]",
+                                                    "localBaseColumnName": "[CUR_DAY_TOTAL_DOSE_CT]",
                                                     "paneIndices": [
                                                         0
                                                     ]
@@ -645,14 +297,14 @@
                                         "refLineTips": [],
                                         "reflineFields": [],
                                         "ubertipData": {
-                                            "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
+                                            "fn": "",
                                             "ubertipPaneDatas": [
                                                 {
                                                     "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Region:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]&gt;</span></td></tr><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]&gt;:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]&gt;</span></td></tr></table></span>",
+                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">CUR_DAY_TOTAL_DOSE_CT:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Tableau Book';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:CUR_DAY_TOTAL_DOSE_CT:qk]&gt;</span></td></tr></table></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
-                                                    "summaryField": "Measure Values"
+                                                    "summaryField": "SUM(CUR_DAY_TOTAL_DOSE_CT)"
                                                 }
                                             ]
                                         },
@@ -660,7 +312,7 @@
                                     }
                                 }
                             },
-                            "01-NYSAllocation": {
+                            "03-Past 7 Days": {
                                 "presModelHolder": {
                                     "genVizDataPresModel": {
                                         "filterFields": [],
@@ -669,13 +321,213 @@
                                             "paneColumnsList": [
                                                 {
                                                     "paneDescriptor": {
-                                                        "paneDescrKey": "1e2459a239830b74",
+                                                        "paneDescrKey": "6344701b2a6cb0ec",
+                                                        "xFields": [],
+                                                        "xIndex": 0,
+                                                        "yFields": [],
+                                                        "yIndex": 0
+                                                    },
+                                                    "vizPaneColumns": [
+                                                        {
+                                                            "aliasIndices": [],
+                                                            "formatstrIndices": [],
+                                                            "tupleIds": [
+                                                                1
+                                                            ],
+                                                            "valueIndices": []
+                                                        },
+                                                        {
+                                                            "aliasIndices": [
+                                                                -92
+                                                            ],
+                                                            "formatstrIndices": [
+                                                                -1
+                                                            ],
+                                                            "tupleIds": [],
+                                                            "valueIndices": []
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "vizDataColumns": [
+                                                {
+                                                    "columnIndices": [
+                                                        0
+                                                    ],
+                                                    "fn": "[system:visual].[tuple_id]",
+                                                    "fnDisagg": "",
+                                                    "formatStrings": [],
+                                                    "isAutoSelect": false,
+                                                    "paneIndices": [
+                                                        0
+                                                    ]
+                                                },
+                                                {
+                                                    "aggregation": "sum",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[DIFF_FROM_PREV_WEEK_TOTAL_DOSE_CT]",
+                                                    "columnIndices": [
+                                                        1
+                                                    ],
+                                                    "dataType": "real",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
+                                                    "fieldCaption": "SUM(DIFF_FROM_PREV_WEEK_TOTAL_DOSE_CT)",
+                                                    "fieldRole": "measure",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:DIFF_FROM_PREV_WEEK_TOTAL_DOSE_CT:qk]",
+                                                    "fnDisagg": "",
+                                                    "formatStrings": [
+                                                        "",
+                                                        "-1",
+                                                        "t",
+                                                        "",
+                                                        "",
+                                                        "",
+                                                        "0",
+                                                        ".",
+                                                        ",",
+                                                        "3;0"
+                                                    ],
+                                                    "isAutoSelect": false,
+                                                    "localBaseColumnName": "[DIFF_FROM_PREV_WEEK_TOTAL_DOSE_CT]",
+                                                    "paneIndices": [
+                                                        0
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "refLineTips": [],
+                                        "reflineFields": [],
+                                        "ubertipData": {
+                                            "fn": "",
+                                            "ubertipPaneDatas": [
+                                                {
+                                                    "fieldVector": [],
+                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">CUR_DAY_TOTAL_DOSE_CT:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
+                                                    "htmlTooltipModified": "",
+                                                    "showButtons": false,
+                                                    "summaryField": "SUM(DIFF_FROM_PREV_WEEK_TOTAL_DOSE_CT)"
+                                                }
+                                            ]
+                                        },
+                                        "vizColumns": []
+                                    }
+                                }
+                            },
+                            "04-Past24hours": {
+                                "presModelHolder": {
+                                    "genVizDataPresModel": {
+                                        "filterFields": [],
+                                        "highlightCaptions": [],
+                                        "paneColumnsData": {
+                                            "paneColumnsList": [
+                                                {
+                                                    "paneDescriptor": {
+                                                        "paneDescrKey": "6344701b2a6cb0ec",
+                                                        "xFields": [],
+                                                        "xIndex": 0,
+                                                        "yFields": [],
+                                                        "yIndex": 0
+                                                    },
+                                                    "vizPaneColumns": [
+                                                        {
+                                                            "aliasIndices": [],
+                                                            "formatstrIndices": [],
+                                                            "tupleIds": [
+                                                                1
+                                                            ],
+                                                            "valueIndices": []
+                                                        },
+                                                        {
+                                                            "aliasIndices": [
+                                                                -93
+                                                            ],
+                                                            "formatstrIndices": [
+                                                                -1
+                                                            ],
+                                                            "tupleIds": [],
+                                                            "valueIndices": []
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "vizDataColumns": [
+                                                {
+                                                    "columnIndices": [
+                                                        0
+                                                    ],
+                                                    "fn": "[system:visual].[tuple_id]",
+                                                    "fnDisagg": "",
+                                                    "formatStrings": [],
+                                                    "isAutoSelect": false,
+                                                    "paneIndices": [
+                                                        0
+                                                    ]
+                                                },
+                                                {
+                                                    "aggregation": "sum",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[DIFF_FROM_PREV_DAY_TOTAL_DOSE_CT]",
+                                                    "columnIndices": [
+                                                        1
+                                                    ],
+                                                    "dataType": "real",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
+                                                    "fieldCaption": "SUM(DIFF_FROM_PREV_DAY_TOTAL_DOSE_CT)",
+                                                    "fieldRole": "measure",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[sum:DIFF_FROM_PREV_DAY_TOTAL_DOSE_CT:qk]",
+                                                    "fnDisagg": "",
+                                                    "formatStrings": [
+                                                        "",
+                                                        "-1",
+                                                        "t",
+                                                        "",
+                                                        "",
+                                                        "",
+                                                        "0",
+                                                        ".",
+                                                        ",",
+                                                        "3;0"
+                                                    ],
+                                                    "isAutoSelect": false,
+                                                    "localBaseColumnName": "[DIFF_FROM_PREV_DAY_TOTAL_DOSE_CT]",
+                                                    "paneIndices": [
+                                                        0
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "refLineTips": [],
+                                        "reflineFields": [],
+                                        "ubertipData": {
+                                            "fn": "",
+                                            "ubertipPaneDatas": [
+                                                {
+                                                    "fieldVector": [],
+                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">CUR_DAY_TOTAL_DOSE_CT:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
+                                                    "htmlTooltipModified": "",
+                                                    "showButtons": false,
+                                                    "summaryField": "SUM(DIFF_FROM_PREV_DAY_TOTAL_DOSE_CT)"
+                                                }
+                                            ]
+                                        },
+                                        "vizColumns": []
+                                    }
+                                }
+                            },
+                            "Hourly Vaccination Snapshot": {
+                                "presModelHolder": {
+                                    "genVizDataPresModel": {
+                                        "filterFields": [],
+                                        "highlightCaptions": [],
+                                        "paneColumnsData": {
+                                            "paneColumnsList": [
+                                                {
+                                                    "paneDescriptor": {
+                                                        "paneDescrKey": "bd5af9a894904a20",
                                                         "xFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]"
+                                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[:Measure Names]"
                                                         ],
                                                         "xIndex": 0,
                                                         "yFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]"
+                                                            "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[none:REGION:nk]"
                                                         ],
                                                         "yIndex": 0
                                                     },
@@ -755,6 +607,9 @@
                                                         },
                                                         {
                                                             "aliasIndices": [
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -763,9 +618,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -774,9 +629,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -785,9 +640,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -796,9 +651,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -807,9 +662,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -817,10 +672,7 @@
                                                                 8,
                                                                 9,
                                                                 10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
+                                                                11
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -892,6 +744,9 @@
                                                             ],
                                                             "tupleIds": [],
                                                             "valueIndices": [
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -900,9 +755,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -911,9 +766,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -922,9 +777,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -933,9 +788,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -944,9 +799,9 @@
                                                                 9,
                                                                 10,
                                                                 11,
-                                                                12,
-                                                                13,
-                                                                14,
+                                                                1,
+                                                                2,
+                                                                3,
                                                                 4,
                                                                 5,
                                                                 6,
@@ -954,80 +809,77 @@
                                                                 8,
                                                                 9,
                                                                 10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
+                                                                11
                                                             ]
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                16,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                18,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20,
-                                                                20
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                13,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                15,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                17,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                19,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                21,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23,
+                                                                23
                                                             ],
                                                             "formatstrIndices": [
                                                                 -1,
@@ -1099,121 +951,80 @@
                                                             ],
                                                             "tupleIds": [],
                                                             "valueIndices": [
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                15,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                17,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19,
-                                                                19
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                12,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                14,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                16,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                18,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                20,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22,
+                                                                22
                                                             ]
                                                         },
                                                         {
                                                             "aliasIndices": [
-                                                                -56,
-                                                                -23,
-                                                                -57,
-                                                                -58,
-                                                                -56,
-                                                                -59,
-                                                                -24,
-                                                                -23,
-                                                                -23,
-                                                                -22,
-                                                                -24,
-                                                                -4,
-                                                                -60,
-                                                                -61,
-                                                                -62,
-                                                                -63,
-                                                                -64,
-                                                                -65,
-                                                                -66,
-                                                                -67,
-                                                                -68,
-                                                                -69,
-                                                                -3,
-                                                                -70,
-                                                                -71,
-                                                                -72,
-                                                                -73,
-                                                                -74,
-                                                                -75,
-                                                                -76,
-                                                                -77,
-                                                                -78,
-                                                                -79,
-                                                                -22,
-                                                                -23,
-                                                                -24,
                                                                 -25,
-                                                                -22,
-                                                                -25,
-                                                                -23,
                                                                 -26,
-                                                                -23,
                                                                 -27,
                                                                 -28,
-                                                                -2,
                                                                 -29,
                                                                 -30,
                                                                 -31,
@@ -1234,474 +1045,17 @@
                                                                 -46,
                                                                 -47,
                                                                 -48,
-                                                                -49
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[REGION]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Region",
-                                                    "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": true,
-                                                    "localBaseColumnName": "[REGION]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ],
-                                                    "stringCollation": {
-                                                        "charsetId": 0,
-                                                        "name": "binary"
-                                                    }
-                                                },
-                                                {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
-                                                    "columnIndices": [
-                                                        2
-                                                    ],
-                                                    "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Measure Names",
-                                                    "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": true,
-                                                    "localBaseColumnName": "[:Measure Names]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
-                                                    "columnIndices": [
-                                                        3
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "Measure Values",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "",
-                                                        "-1",
-                                                        "t",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "0",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Multiple Values]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Region:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]&gt;</span></td></tr><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]&gt;:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]&gt;</span></td></tr></table></span>",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "Measure Values"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "01-NYSAllocation Phone": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "1e2459a239830b74",
-                                                        "xFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]"
-                                                        ],
-                                                        "xIndex": 0,
-                                                        "yFields": [
-                                                            "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]"
-                                                        ],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1,
-                                                                2,
-                                                                3,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                15,
-                                                                16,
-                                                                17,
-                                                                18,
-                                                                19,
-                                                                20,
-                                                                21,
-                                                                22,
-                                                                23,
-                                                                24,
-                                                                25,
-                                                                26,
-                                                                27,
-                                                                28,
-                                                                29,
-                                                                30,
-                                                                31,
-                                                                32,
-                                                                33
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": [
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14,
-                                                                4,
-                                                                5,
-                                                                6,
-                                                                7,
-                                                                8,
-                                                                9,
-                                                                10,
-                                                                11,
-                                                                12,
-                                                                13,
-                                                                14
-                                                            ]
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                50,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                52,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54,
-                                                                54
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1,
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": [
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                49,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                51,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53,
-                                                                53
-                                                            ]
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
+                                                                -49,
+                                                                -50,
+                                                                -51,
+                                                                -52,
+                                                                -53,
+                                                                -54,
+                                                                -55,
                                                                 -56,
-                                                                -23,
                                                                 -57,
                                                                 -58,
-                                                                -56,
                                                                 -59,
-                                                                -24,
-                                                                -23,
-                                                                -23,
-                                                                -22,
-                                                                -24,
-                                                                -4,
                                                                 -60,
                                                                 -61,
                                                                 -62,
@@ -1712,7 +1066,6 @@
                                                                 -67,
                                                                 -68,
                                                                 -69,
-                                                                -3,
                                                                 -70,
                                                                 -71,
                                                                 -72,
@@ -1722,9 +1075,53 @@
                                                                 -76,
                                                                 -77,
                                                                 -78,
-                                                                -79
+                                                                -79,
+                                                                -80,
+                                                                -81,
+                                                                -82,
+                                                                -83,
+                                                                -84,
+                                                                -85,
+                                                                -86,
+                                                                -87,
+                                                                -88,
+                                                                -89,
+                                                                -90
                                                             ],
                                                             "formatstrIndices": [
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
+                                                                -1,
                                                                 -1,
                                                                 -1,
                                                                 -1,
@@ -1779,15 +1176,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[REGION]",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[REGION]",
                                                     "columnIndices": [
                                                         1
                                                     ],
                                                     "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
                                                     "fieldCaption": "Region",
                                                     "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[none:REGION:nk]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [],
                                                     "isAutoSelect": true,
@@ -1801,15 +1198,15 @@
                                                     }
                                                 },
                                                 {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[:Measure Names]",
                                                     "columnIndices": [
                                                         2
                                                     ],
                                                     "dataType": "cstring",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
                                                     "fieldCaption": "Measure Names",
                                                     "fieldRole": "dimension",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[:Measure Names]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [],
                                                     "isAutoSelect": true,
@@ -1819,15 +1216,15 @@
                                                     ]
                                                 },
                                                 {
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
+                                                    "baseColumnName": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[Multiple Values]",
                                                     "columnIndices": [
                                                         3
                                                     ],
                                                     "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
+                                                    "datasourceCaption": "federated.0e4uf6n0p85zgq14di4kz1fye23q",
                                                     "fieldCaption": "Measure Values",
                                                     "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]",
+                                                    "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[Multiple Values]",
                                                     "fnDisagg": "",
                                                     "formatStrings": [
                                                         "",
@@ -1852,514 +1249,14 @@
                                         "refLineTips": [],
                                         "reflineFields": [],
                                         "ubertipData": {
-                                            "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]",
+                                            "fn": "[federated.0e4uf6n0p85zgq14di4kz1fye23q].[:Measure Names]",
                                             "ubertipPaneDatas": [
                                                 {
                                                     "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Region:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[none:REGION:nk]&gt;</span></td></tr><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[:Measure Names]&gt;:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Multiple Values]&gt;</span></td></tr></table></span>",
+                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">Region:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Tableau Book';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0e4uf6n0p85zgq14di4kz1fye23q].[none:REGION:nk]&gt;</span></td></tr><tr><td style=\"white-space:pre\"><span style=\"font-family:'Tableau Book';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">&lt;[federated.0e4uf6n0p85zgq14di4kz1fye23q].[:Measure Names]&gt;:</span></td><td>&nbsp;</td><td><span style=\"font-family:'Tableau Book';font-size:13px;color:#333333;font-weight:bold;font-style:normal;text-decoration:none;\">&lt;[federated.0e4uf6n0p85zgq14di4kz1fye23q].[Multiple Values]&gt;</span></td></tr></table></span>",
                                                     "htmlTooltipModified": "",
                                                     "showButtons": false,
                                                     "summaryField": "Measure Values"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "04-Total Doses-Admin Tablet": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "6344701b2a6cb0ec",
-                                                        "xFields": [],
-                                                        "xIndex": 0,
-                                                        "yFields": [],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                1
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[% of Doses Administered / Received (copy)_1137721859462545409]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(% of First Doses Administered / Received)",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:% of Doses Administered / Received (copy)_1137721859462545409:qk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "p",
-                                                        "0",
-                                                        "f",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "2",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[% of Doses Administered / Received (copy)_1137721859462545409]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">VACC_PAT_ID:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "SUM(% of First Doses Administered / Received)"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "05-Doses-Admin": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "6344701b2a6cb0ec",
-                                                        "xFields": [],
-                                                        "xIndex": 0,
-                                                        "yFields": [],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                0
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_1137721859462270976]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(First Doses Received)",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_1137721859462270976:qk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "n",
-                                                        "0",
-                                                        "t",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "2",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_1137721859462270976]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><table style=\"vertical-align:top;padding:0px\" cellspacing=\"0\"><tr><td style=\"white-space:pre\"><span style=\"font-family:'Arial';font-size:13px;color:#787878;font-weight:normal;font-style:normal;text-decoration:none;\">VACC_PAT_ID:</span></td><td>&nbsp;</td><td>&nbsp;</td></tr></table></span>",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "SUM(First Doses Received)"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "06-Doses-Complete": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "6344701b2a6cb0ec",
-                                                        "xFields": [],
-                                                        "xIndex": 0,
-                                                        "yFields": [],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                -3
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_2363545380713304067]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(Total Doses Received (1st and 2nd))",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713304067:qk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "",
-                                                        "-1",
-                                                        "t",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "0",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_2363545380713304067]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "<span style=\"white-space:pre-wrap;tab-size:10;-moz-tab-size:10\"><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#002d72;font-weight:bold;font-style:normal;text-decoration:none;\">First Dose</span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:normal;font-style:normal;text-decoration:none;\"><br></span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#333333;font-weight:normal;font-style:normal;text-decoration:none;\"><br></span></div><div style=\"text-align:left;\"><span style=\"font-family:'Arial';font-size:13px;color:#002d72;font-weight:bold;font-style:normal;text-decoration:none;\">Second Dose</span></div></span>",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "SUM(Total Doses Received (1st and 2nd))"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "06-FirstDoses": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "6344701b2a6cb0ec",
-                                                        "xFields": [],
-                                                        "xIndex": 0,
-                                                        "yFields": [],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                -2
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_2363545380711342080]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(First Doses Administered)",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380711342080:qk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "",
-                                                        "-1",
-                                                        "t",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "0",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_2363545380711342080]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "SUM(First Doses Administered)"
-                                                }
-                                            ]
-                                        },
-                                        "vizColumns": []
-                                    }
-                                }
-                            },
-                            "06-SecondDoses": {
-                                "presModelHolder": {
-                                    "genVizDataPresModel": {
-                                        "filterFields": [],
-                                        "highlightCaptions": [],
-                                        "paneColumnsData": {
-                                            "paneColumnsList": [
-                                                {
-                                                    "paneDescriptor": {
-                                                        "paneDescrKey": "6344701b2a6cb0ec",
-                                                        "xFields": [],
-                                                        "xIndex": 0,
-                                                        "yFields": [],
-                                                        "yIndex": 0
-                                                    },
-                                                    "vizPaneColumns": [
-                                                        {
-                                                            "aliasIndices": [],
-                                                            "formatstrIndices": [],
-                                                            "tupleIds": [
-                                                                1
-                                                            ],
-                                                            "valueIndices": []
-                                                        },
-                                                        {
-                                                            "aliasIndices": [
-                                                                -4
-                                                            ],
-                                                            "formatstrIndices": [
-                                                                -1
-                                                            ],
-                                                            "tupleIds": [],
-                                                            "valueIndices": []
-                                                        }
-                                                    ]
-                                                }
-                                            ],
-                                            "vizDataColumns": [
-                                                {
-                                                    "columnIndices": [
-                                                        0
-                                                    ],
-                                                    "fn": "[system:visual].[tuple_id]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [],
-                                                    "isAutoSelect": false,
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                },
-                                                {
-                                                    "aggregation": "sum",
-                                                    "baseColumnName": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[Calculation_2363545380713377796]",
-                                                    "columnIndices": [
-                                                        1
-                                                    ],
-                                                    "dataType": "real",
-                                                    "datasourceCaption": "federated.0uj3gwx0fb3uuf16ikdch1wy7w04",
-                                                    "fieldCaption": "SUM(Total Doses Administered (1st and 2nd))",
-                                                    "fieldRole": "measure",
-                                                    "fn": "[federated.0uj3gwx0fb3uuf16ikdch1wy7w04].[sum:Calculation_2363545380713377796:qk]",
-                                                    "fnDisagg": "",
-                                                    "formatStrings": [
-                                                        "",
-                                                        "-1",
-                                                        "t",
-                                                        "",
-                                                        "",
-                                                        "",
-                                                        "0",
-                                                        ".",
-                                                        ",",
-                                                        "3;0"
-                                                    ],
-                                                    "isAutoSelect": false,
-                                                    "localBaseColumnName": "[Calculation_2363545380713377796]",
-                                                    "paneIndices": [
-                                                        0
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        "refLineTips": [],
-                                        "reflineFields": [],
-                                        "ubertipData": {
-                                            "fn": "",
-                                            "ubertipPaneDatas": [
-                                                {
-                                                    "fieldVector": [],
-                                                    "htmlTooltip": "",
-                                                    "htmlTooltipModified": "",
-                                                    "showButtons": false,
-                                                    "summaryField": "SUM(Total Doses Administered (1st and 2nd))"
                                                 }
                                             ]
                                         },
